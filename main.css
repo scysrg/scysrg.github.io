@@ -1,4 +1,9 @@
 
+@media only scren and (max-width:720x)
+{
+    img {display: none;}
+    .info {display: none;}
+}
 
 .title_image {
     margin-left: 20pt;
@@ -89,7 +94,7 @@ hr.dot_line {
 /* i used this blog(https://blogpack.tistory.com/814?category=804108) to make image slide*/
 .slider{
     float: right;
-    width: 100pt;
+    width: 60pt;
     height: 180pt;
     margin-top: 120px;
 }
